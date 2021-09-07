@@ -20,16 +20,13 @@ jobs:
       - name: Test
         run: |
           registrys="
-          developer.aliyun.com/mirror
-          mirror.ccs.tencentyun.com
+          mirrors.tuna.tsinghua.edu.cn/
           onwxf637.mirror.aliyuncs.com
           docker.io
           registry-1.docker.io
           registry.hub.docker.com
           mirror.baidubce.com
-          hub-mirror.c.163.com
           docker.mirrors.ustc.edu.cn
-          mirror.gcr.io
           $ALIYUN_MIRROR
           "
           image="library/nginx:1.21.1-alpine"
