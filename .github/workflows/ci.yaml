@@ -20,6 +20,8 @@ jobs:
       - name: Test
         run: |
           registrys="
+          0666e0e3b700259c0fffc014861628e0.mirror.swr.myhuaweicloud.com
+          https://onwxf637.mirror.aliyuncs.com
           docker.io
           registry-1.docker.io
           registry.hub.docker.com
